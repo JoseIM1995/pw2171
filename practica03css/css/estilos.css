@@ -1,16 +1,83 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 1200px;
+}
+
+header nav{
+
+}
+
+header nav ul li{
+	color: blue;
+	display: inline-block;
+	font-size: 1.13em;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+}
+
+#imgpost{
+	margin-top: 40px;
+	float: left;
+}
 
 
+#secc01art01{
+	display: inline-block;
+	margin-left: 30px;
+	width: 60%
+}
+
+#secc01art01 img{
+
+	width: 100%
+}
 
 
+#secc01art02{
+	margin-top: 74px;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 50px;
+	width: 30%
+}
 
-
+#secc02art01 article{
+	
+}
 
 #segundaseccion article{
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width: 58%;
 }
+
+.lorem{ 
+	display: inline-block;
+    width: 56%;
+    margin-top: 6%;
+    margin-left: 2%;
+}
+
+.titulopost{
+	display: table-row;
+}
+
 
 #segundaseccion article img{
 	vertical-align: top;
+}
+
+#red1{
+	float: right;
+}
+
+#red2{
+	float: right;
+}
+
+#red3{
+	float: right;
 }
