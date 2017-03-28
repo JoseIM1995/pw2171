@@ -6,32 +6,40 @@ body{
 }
 
 header nav{
-
+	border: 1px solid blue;
 }
-
+header nav ul{
+	padding: 0;
+	border: 2px solid orange;
+}
 header nav ul li{
 	color: blue;
 	display: inline-block;
 	font-size: 1.13em;
 	margin-right: 20px;
 	margin-bottom: 10px;
-
 }
 
 #imgpost{
-	margin-top: 40px;
+	border: 10px solid lightgrey;
 	float: left;
+	position: relative;
+}
+
+#primerseccion{
+	border: 1px solid red;
 }
 
 
 #secc01art01{
+	border: 1px solid red;
 	display: inline-block;
+	width: 60%;
 	margin-left: 30px;
-	width: 60%
 }
 
 #secc01art01 img{
-
+	border-bottom: 1px solid grey;
 	width: 100%
 }
 
@@ -44,25 +52,34 @@ header nav ul li{
 	width: 30%
 }
 
-#secc02art01 article{
-	
-}
-
 #segundaseccion article{
+	margin-left: 30px;
 	display: inline-block;
 	vertical-align: top;
 	width: 58%;
+	border: 1px solid pink;
+}
+
+#TitPost{
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+	color: grey;
+	margin-left: 30px;
 }
 
 .lorem{ 
 	display: inline-block;
     width: 56%;
-    margin-top: 6%;
-    margin-left: 2%;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
-.titulopost{
-	display: table-row;
+
+.mithemaenhtml5{
+
+	float: left;
+	margin-top: 40px;
 }
 
 
@@ -81,3 +98,15 @@ header nav ul li{
 #red3{
 	float: right;
 }
+
+.poradmin{
+	border-radius: 10px;
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 190px; 
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+
