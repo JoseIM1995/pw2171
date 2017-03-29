@@ -8,15 +8,140 @@ body{
 header{
 	border: 1px solid red;
 	text-align: center;
-	background: blue;
+	background: #20507B;
 }
 
 header nav{
-	background: lightgrey;
+	background: #ECECEE;
 	text-align: right;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#primerseccion{
+	border: 1px solid green;
+	width: 28%;
+	display: inline-block;
+}
+
+#primerseccion article{
+}
+
+#secc01art01 ul{
+	list-style: none;
+}
+
+#secc01art01 ul li{
+	margin-left: -27px;
+}
+
+#secc01art01 ul li:before{
+	content: "</> ";
+	color: white;
+}
+
+#secc01art01{
+	border: 1px solid red;
+	margin-left: 15px;
+	width: 24%;
+	padding-top: 10px;
+	text-align: left;
+	background: #20507B;
+	color: white;
+	width: 90%;
+	padding-right: 13px;
+}
+
+#secc01art02{
+	border: 1px solid pink;
+	margin-left: 15px;
+	width: 23%;
+	padding-top: 10px;
+	padding-left: 12px;
+	padding-bottom: 15px;
+	text-align: left;
+	background: white;
+	color: black;
+	width: 90%;
+}
+
+#secc01art02 img{
+	margin-left: -5px;
+	width: 100%;
+}
+
+#segundaseccion{
+	border: 1px solid red;
+	width: 68%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#secc02art01 article{
+	border: 1px solid black;
+	margin-left: 20px;
+	width: 19%;
+	display: inline-block;
+}
+
+#secc02art01 img{
+	margin-right: 10px;
 }
 
 
-#logo{
+#secc02art01 article img{
+	margin right: 15px;
+}
+
+#segundaseccion article{
+	display: inline-block	;
 
 }
+
+#secc02art02 img{
+	width: 98%;
+	height: 124px;
+}
+
+
+.panelwithlinks{
+	border: 1px solid yellow;  
+	padding: 9px 109px 10px 38px; 
+	background: #265D8E;
+	color: white;      			
+}
+#logolinks{
+	position: absolute;
+	width: 20px;
+	height: 25px;
+	margin-left: 19px;
+	margin-top: -24px;
+}
+
+.PanelWithProgress{
+	border: 1px solid red;
+	background: #265D8E;
+	color: white;
+	padding: 10px 102.5px 13px 38px;
+	margin-left: -12px;
+}
+
+#logoprogress{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
+
+
+
+.clasecubos img{
+	border: 1px solid red;
+	width: 124;
+	height: 124px;
+}
+
+.claseusuarios img{
+	width: 124px;
+	height: 124px;
+}
+
+
