@@ -10,10 +10,9 @@ function borrar(){
 
 function igual(){
 	var valor1 = document.calculadora.operando1.value;
-	var valor1 = document.calculadora.operando1.value;
-	if(operador == "+"){
-		document.calculadora.resultado.value = eval(valor1+operador+valor2);
-	}
+	var valor2 = document.calculadora.operando2.value;
+	document.calculadora.resultado.value = eval(valor1+operador+valor2);
+	
 }
 
 function operadores(ope){
@@ -28,8 +27,9 @@ function numeros(num){
 		}
 		//Concatena los valores de num con los del operando1
 		document.calculadora.operando1.value = document.calculadora.operando1.value + num;
-	} else{
-		if(operador == ""){ //Escribir en el operando2
+	} 
+	else{
+//Escribir en el operando2
 		var valorInicial = document.calculadora.operando2.value;
 		if(valorInicial == "0"){//Elimino el cero
 			document.calculadora.operando2.value = "";
@@ -37,5 +37,5 @@ function numeros(num){
 		//Concatena los valores de num con los del operando2
 		document.calculadora.operando2.value = document.calculadora.operando2.value + num;
 	}
-}
+
 }
