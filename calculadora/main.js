@@ -10,7 +10,7 @@ let PantallaPrincipal;
 function muestraPantallaPrincipal(){
 	PantallaPrincipal = new BrowserWindow({
 		width:320,
-		height:425
+		height:380
 	})
 	PantallaPrincipal.on('closed',function(){
 		PantallaPrincipal = null
