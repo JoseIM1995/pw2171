@@ -6,6 +6,76 @@ img{
 	border-radius: 200px;
 	width: 200px;
 }
-#txtNombre{
-	font-size: 2em;
+
+#primerseccion{
+	border: 1px solid red;
+	display: inline-block;
+	width: 20%;
+	float: left;
+	height: 100%;
+	background-color: red;
+	height: 750px;
 }
+
+#segundaseccion {
+	border: 1px solid blue;
+	display: inline-block;
+	width: 79%;
+	background: blue;
+	height: 750px;
+}
+
+#txtNombre{
+	font-size: 1.5em;
+}
+
+#txtGender{
+	font-size: 1.5em;
+}
+#txtTitle{
+	font-size: 1.5em;
+}
+#txtStreet{
+	font-size: 1.5em;
+}
+#txtCity{
+	font-size: 1.5em;
+}
+#txtState{
+	font-size: 1.5em;
+}
+
+#txtPostCode{
+	font-size: 1.5em;
+}
+#txtEmail{
+	font-size: 1.5em;
+}
+#txtUserName{
+	font-size: 1.5em;
+}
+#txtPassword{
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
